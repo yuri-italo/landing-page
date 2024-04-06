@@ -110,3 +110,32 @@ body {
   border: 2px solid #3882f6;
   border-radius: 6px;
 }
+
+.quote {
+  background: #e5e7eb;
+}
+
+.quote-container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+.quote-container blockquote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-container p {
+  font-size: 2rem;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-container footer {
+  align-self: flex-end;
+  margin-right: 50px;
+}
