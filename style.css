@@ -14,7 +14,8 @@ body {
 }
 
 .header,
-.main {
+.main,
+.footer {
   background: #1f2937;
 }
 
@@ -167,4 +168,12 @@ body {
   font-size: 1.125rem;
   font-weight: 900;
   padding: 6px 2rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  color: #f9faf8;
+  font-size: 0.825rem;
 }
