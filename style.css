@@ -138,4 +138,33 @@ body {
 .quote-container footer {
   align-self: flex-end;
   margin-right: 50px;
+  font-size: 1.125rem;
+}
+
+.sign-up {
+  max-width: 960px;
+  margin: 4rem auto;
+  background: #3882f6;
+  border-radius: 6px;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-up-text {
+  color: #f9faf8;
+}
+
+.sign-up-text p {
+  font-size: 1.125rem;
+}
+
+.sign-up button {
+  background: none;
+  border: 1px solid #f9faf8;
+  border-radius: 6px;
+  color: #f9faf8;
+  font-size: 1.125rem;
+  font-weight: 900;
+  padding: 6px 2rem;
 }
