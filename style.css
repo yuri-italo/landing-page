@@ -13,14 +13,15 @@ body {
   list-style-type: none;
 }
 
-.header {
+.header,
+.main {
   background: #1f2937;
 }
 
 .header-container {
   max-width: 960px;
   margin: 0 auto;
-  padding: 16px 0;
+  padding: 1rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -33,11 +34,47 @@ body {
 
 .nav-list {
   display: flex;
-  gap: 16px;
+  gap: 1rem;
   list-style: none;
 }
 
 .nav-list a {
   font-size: 1.125rem;
   color: #e5e7eb;
+}
+
+.main-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  padding: 3rem 0;
+  gap: 2rem;
+}
+
+.main-container-text h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.main-container-text p {
+  font-size: 1.125rem;
+  color: #f9faf8;
+  margin-bottom: 6px;
+}
+
+.main-container-text button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 6px;
+  color: #f9faf8;
+  font-size: 1.125rem;
+  font-weight: 900;
+  padding: 6px 2rem;
+}
+
+.main-container img {
+  display: block;
+  width: 100%;
+  height: 216px;
 }
