@@ -4,6 +4,10 @@
 
 This project involves creating a web page based on a provided design. The objective is to practice HTML and CSS skills by replicating the design layout as closely as possible while adding personalized content. The project emphasizes a step-by-step approach, encouraging developers to tackle one section at a time and focus on HTML structure before styling with CSS. Additionally, it highlights the importance of version control using Git and GitHub, as well as the ethical considerations of using free-to-use images and giving appropriate credit to creators.
 
+## GitHub Pages
+
+[View Project on GitHub Pages](https://yuri-italo.github.io/landing-page/)
+
 ## Design Details
 
 The project utilizes two images for reference:
